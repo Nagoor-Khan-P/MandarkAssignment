@@ -18,7 +18,6 @@ public class EmployeeListing
         CSVReader reader=new CSVReader(new FileReader("src\\main\\resources\\EmployeeDatainCSV\\employees.csv"));
         CSVWriter writer1=new CSVWriter(new FileWriter("src\\main\\resources\\EmployeeDatainCSV\\managers.csv"));
         CSVWriter writer2=new CSVWriter(new FileWriter("src\\main\\resources\\EmployeeDatainCSV\\single_name_employees.csv"));
-        StringBuilder sb=new StringBuilder();
         String[] employee;
         while((employee=reader.readNext()) !=null) {
         	if(employee[1].equals("Manager") && employee[2].equals("R&D")) {

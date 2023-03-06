@@ -18,11 +18,7 @@ public class CombinatinSort {
 		}
 		List<String> L1 = sortByFirstChar(list);
 		List<String> L2 = sortListForSameInitialInDesc(list);
-		System.out.println("L1 is the list sorted by their first character and all the strings with the same initial character should be in the same order\r\n"
-				+ "as in the original list.");
 		System.out.println("L1: "+L1);
-		System.out.println("L2 is the list sorted strings starting with the same character, in descending\r\n"
-				+ "order with respect to the number formed by the remaining characters.");
 		System.out.println("L2: "+L2);
 	}
 
